@@ -1,5 +1,10 @@
 #!/bin/bash
 
+## This script start to make my yubikey the ssh key login.
+## Works on:
+## Fedora
+## Opensuse
+
 echo enable-ssh-support >> $HOME/.gnupg/gpg-agent.conf
 
 cat <<EOF >> $HOME/.bashrc
